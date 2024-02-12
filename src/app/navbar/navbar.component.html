@@ -13,11 +13,12 @@
     </select>
   </div>
   <div>
-    <div [ngClass]="currentTheme">
-      <!--  {{titleDark}}-->
-      <button (click)="toggleTheme()">
-        {{ currentTheme === 'dark-mode' ? 'Light' : 'Dark' }}
+    <div [ngClass]="currentTheme" >
+
+      <button (click)="toggleTheme()" id="nav__dark__light__mode">
+        <img [src]="currentTheme === 'dark-mode' ? 'assets/light-mode-icon.png' : 'assets/dark-mode-icon.png'" alt="Theme Icon">
       </button>
+
     </div>
   </div>
   <div></div>
