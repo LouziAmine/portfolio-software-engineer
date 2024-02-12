@@ -1,0 +1,27 @@
+{
+
+
+
+
+
+  "hire_me": "HIRE ME",
+  "translation": {
+    "info": "Translation",
+    "lang": "en"
+  },
+
+
+  "nav__logo": {
+    "n_p": "L.A",
+    "devfolio": "DevFolio"
+  },
+
+  "nav": {
+    "home": "HOME",
+    "about_me": "ABOUT ME",
+    "my_service": "MY SERVICE",
+    "my_works": "MY WORKS",
+    "contact_me": "CONTACT ME"
+  }
+
+}

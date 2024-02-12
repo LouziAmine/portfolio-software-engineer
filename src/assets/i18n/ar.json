@@ -1,0 +1,24 @@
+{
+
+
+
+  "hire_me": "وظفني",
+
+  "translation": {
+    "info": "ترجمة",
+    "lang": "ar"
+  },
+
+  "nav__logo": {
+    "n_p": "L.A",
+    "devfolio": "DevFolio"
+  },
+
+  "nav": {
+    "home": "الصفحة الرئيسية ",
+    "about_me": "معلومات عني ",
+    "my_service": "خدماتي ",
+    "my_works": "أعمالي ",
+    "contact_me": "تواصل معي "
+  }
+}

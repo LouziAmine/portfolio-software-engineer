@@ -1,1 +1,16 @@
-<p>navbar works!</p>
+
+<nav id="nav">
+  <div></div>
+  <div id="nav__Logo"><p id="nav__Logo__Title">{{ 'nav__logo.n_p' | translate }}</p><p>{{ 'nav__logo.devfolio' | translate }}</p></div>
+  <div id="nav__Link"><a>{{ 'nav.home' | translate }}</a><a>{{ 'nav.about_me' | translate }}</a><a>{{ 'nav.my_service' | translate }}</a><a>{{ 'nav.my_works' | translate }}</a><a>{{ 'nav.contact_me' | translate }}</a></div>
+  <div>{{ 'hire_me' | translate }}</div>
+  <div>
+    <select (change)="switchLanguage($event)">
+      <option value="{{ 'translation.lang' | translate }}">{{ 'translation.info' | translate }}</option>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+      <option value="ar">العربية</option>
+    </select>
+  </div>
+  <div></div>
+</nav>

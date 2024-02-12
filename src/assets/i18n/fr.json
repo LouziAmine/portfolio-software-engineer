@@ -1,0 +1,26 @@
+{
+
+
+
+  "hire_me": "ENGAGEZ MOI",
+
+  "translation": {
+    "info": "Traduction",
+    "lang": "fr"
+  },
+
+  "nav__logo": {
+    "n_p": "L.A",
+    "devfolio": "DevFolio"
+  },
+
+  "nav": {
+    "home": "PAGE D'ACCUEIL",
+    "about_me": "À PROPOS DE MOI",
+    "my_service": "MON SERVICE",
+    "my_works": "MES TRAVAUX",
+    "contact_me": "CONTACTEZ-MOI"
+  }
+
+
+}

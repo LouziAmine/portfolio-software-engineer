@@ -34,7 +34,12 @@
             "inlineStyleLanguage": "sass",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "src/fonts/",
+                "output": "/assets/fonts/"
+              }
             ],
             "styles": [
               "src/styles.sass"
@@ -109,5 +114,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "11675004-6d01-4913-80fc-e6ad9b0ef4ae"
   }
 }
