@@ -22,9 +22,11 @@ This project was developed using Angular  17.0.8  , Node js 20.10.0 , and npm  1
 
 1. Install :
 
-  [x]  Angular  17.0.8
-  [x]  Node js 20.10.0
-  [x]  npm  10.2.5
+  * Angular 17.0.8
+<br>
+  * Node js 20.10.0
+<br>
+  *  npm 10.2.5
 
 <br>
 
