@@ -15,7 +15,6 @@ Experienced Software Engineer with expertise in **Java JEE (Spring) framework**,
 <br>
 
 This project was developed using Angular  17.0.8  , Node js 20.10.0 , and npm  10.2.5
-
 <br>
 
 1. Install :
@@ -24,7 +23,6 @@ This project was developed using Angular  17.0.8  , Node js 20.10.0 , and npm  1
      * Node js 20.10.0
      *  npm 10.2.5
 
-<br>
 
 2. Clone the code on your localhost : 
 
