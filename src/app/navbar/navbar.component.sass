@@ -5,8 +5,6 @@
   flex-direction: row
   justify-content: space-between
   align-items: center
-  font-weight: bolder
-  //font-family: 'GriffosFont'
 
   #nav__Logo
     display: flex
@@ -16,8 +14,6 @@
 
 
   #nav__Logo__Title
-    color: white
-    background-color: black
     font-family: 'GriffosFont'
 
 
@@ -27,9 +23,6 @@
 
 
   select
-    //background-color: black
-    //color: white
-    //border: 1px solid black
     padding: 5px
 
 
@@ -37,4 +30,86 @@
 
 
 
+
+
+
+// btn image  light<-->dark mode
+#nav__dark__light__mode
+    background: none
+    color: inherit
+    border: none
+    padding: 0
+    font: inherit
+    cursor: pointer
+    outline: inherit
+
+    img
+      width: 28px
+
+
+
+
+
+
+
+
+
+
+
+
+// Light Mode Variables
+$primary-color-light: #ffffff
+$secondary-color-light: #000000
+$background-color-light: #af2a2a
+
+
+.light-mode
+  // Light Mode Styles
+  background-color: $primary-color-light
+  //color: $select-background-color-light
+  #nav
+    background-color: $primary-color-light
+    #nav__Logo__Title
+      color: $primary-color-light
+      background-color: $secondary-color-light
+    a , #nav__Logo__Title + p , #hire_me
+      color: $secondary-color-light
+    select
+      background-color: $secondary-color-light
+      color: $primary-color-light
+      border: 1px solid $primary-color-light
+    img
+      background-color: $primary-color-light
+    #nav__dark__light__mode
+      background-color: $secondary-color-light
+
+
+
+
+// Dark Mode Variables
+$primary-color-dark: #ffffff
+$secondary-color-dark: #000000
+$background-color-dark: #343a40
+
+
+
+.dark-mode
+  // Dark Mode Styles
+  background-color: $background-color-dark
+  //color: $select-background-color-dark
+  #nav
+    background-color: $secondary-color-dark
+    #nav__Logo__Title
+      color: $secondary-color-dark
+      background-color: $primary-color-dark
+    a , #nav__Logo__Title + p , #hire_me
+      color: $primary-color-dark
+    select
+      background-color: $primary-color-dark
+      color: $secondary-color-dark
+      border: 1px solid $secondary-color-dark
+    img
+      background-color: $secondary-color-dark
+    #nav__dark__light__mode
+      background-color: $primary-color-dark
 
