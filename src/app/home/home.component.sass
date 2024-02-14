@@ -1,30 +1,27 @@
-#HelloIm
-  position: absolute
-  margin-top: 84px
-  text-align: center
-  color: white
-  font-weight: bolder
-  font-size: 32px
-  -webkit-text-stroke: 0.8px #1c2e35
+//#HelloIm
+//  text-align: center
+//  font-weight: bolder
+//  font-size: 32px
+//  -webkit-text-stroke: 0.8px #1c2e35
 
 #Home__Container
-    position: relative
+    //background-color: red
+    //margin-top: -70px
+    //place-items: center
     display: flex
-    flex-direction: row
+    //flex-direction: row
     justify-content: center /* Horizontally center items */
     align-items: center /* Vertically center items */
-    //height: 100vh
+    height: 90vh
     #Home__img__SoftwareEngineer
       width: 600px
-    #Home__DEVELOPER , #Home__FULLSTACK
+    #Home__DEVELOPER , #Home__FULLSTACK , #Home__HelloIm
       position: absolute
-      //left: 300px
     #Home__DEVELOPER
-      color: #1c2e35
       font-weight: bolder
       font-size: 100px
-      -webkit-text-stroke: 0.8px #1c2e35
-      margin-top: 371px
+      -webkit-text-stroke: 0.8px black
+      margin-top: 390px
     #Home__FULLSTACK
       color: white
       font-weight: bolder
@@ -32,6 +29,26 @@
       -webkit-text-stroke: 0.8px #1c2e35
       z-index: -1
       margin-top: -265px
+    #Home__HelloIm
+      font-weight: bolder
+      font-size: 32px
+      -webkit-text-stroke: 0.8px #1c2e35
+      //top: 0px
+      margin-top: -380px
+
+
+
+$Home__primary-color-light: #1c2e35
+
+.light-mode
+  #Home__DEVELOPER , #HelloIm
+    color: $Home__primary-color-light
+
+
+$Home__primary-color-dark: #84c592
+.dark-mode
+    #Home__DEVELOPER , #HelloIm
+      color: $Home__primary-color-dark
 
 
 
