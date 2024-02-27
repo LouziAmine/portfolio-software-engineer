@@ -1,3 +1,4 @@
+# Portfolio Software Engineer V1
 # Portfolio  Software  Engineer : **_Louzi Amine_**
 
 `Amine Louzi`
@@ -11,8 +12,7 @@ Experienced Software Engineer with expertise in **Java JEE (Spring) framework**,
 
 
 ## Run this project on your localhost :
-<br>
-_**portfolio__software__engineer__V1_**  
+
 <br>
 
 This project was developed using Angular  17.0.8  , Node js 20.10.0 , and npm  10.2.5
