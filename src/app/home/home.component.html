@@ -1,40 +1,24 @@
 
 
 
-<!--<div id="HelloIm" >Hello! I'm  </div>-->
 
-<div id="Home__Container">
-  <div id="Home__HelloIm" >Hello! I'm  </div>
-  <div id="Home__FULLSTACK">FULL &nbsp; STACK</div>
-  <div>
-    <img id="Home__img__SoftwareEngineer" [src]="imageUrl" alt="Software_Engineer">
-  </div>
-  <div id="Home__DEVELOPER">DEVELOPER</div>
-</div>
-
-
-
-
-<div class="container">
-  <!-- Row with columns -->
+<div  class="container-fluid" id="Home__Page" [style.background-image]="'url(' + backgroundHomeImageUrl + ')'">
   <div class="row">
-    <!-- First column -->
-    <div class="col">
-      <div class="bg-primary text-white p-3">
-        Column 1
-      </div>
+    <div class="col-md-1 scroll__vertical d-flex justify-content-center Home__Page__Boredr"   style="background-color: rgba(102,51,153,0.23)">
+      <div class="Home__Page__Font__Tag " [innerText]="'</LA>'"></div>
     </div>
-    <!-- Second column -->
-    <div class="col">
-      <div class="bg-secondary text-white p-3">
-        Column 2
+    <div class="col-md-10" style="background-color: rgba(255,0,0,0.28)">
+      <div class="Home__Page__Font">
+        Full Stack Developers
       </div>
+
+
+
+      <div class="Home__Page__Font__Tag " [innerText]="'</Louzi Amine>'"></div>
+
+
     </div>
-    <!-- Third column -->
-    <div class="col">
-      <div class="bg-info text-white p-3">
-        Column 3
-      </div>
-    </div>
+    <div class="col-md-1 d-flex justify-content-center " style="background-color: rgba(0,255,255,0.24)">2</div>
   </div>
 </div>
+

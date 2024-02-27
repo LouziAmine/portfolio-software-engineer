@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
 
-  imageUrl = 'assets/Dev.png';
+  backgroundHomeImageUrl = 'assets/Image/home__page/background__image.jpg';
 
 
 
