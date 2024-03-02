@@ -4,21 +4,29 @@
 
 <div  class="container-fluid" id="Home__Page" [style.background-image]="'url(' + backgroundHomeImageUrl + ')'">
   <div class="row">
-    <div class="col-md-1 scroll__vertical d-flex justify-content-center Home__Page__Boredr"   style="background-color: rgba(102,51,153,0.23)">
+    <div class="col-md-1  scroll__vertical d-flex justify-content-center Home__Page__Boredr"   >
       <div class="Home__Page__Font__Tag " [innerText]="'</LA>'"></div>
-    </div>
-    <div class="col-md-10" style="background-color: rgba(255,0,0,0.28)">
-      <div class="Home__Page__Font">
-        Full Stack Developers
+      <div class="fixed-bottom  col-md-1  bottom__Lang__FrArEn">
+        <div class="Home__Page__Font__Tag" [innerText]="'</Lang>'"></div>
+         <div class="Home__Page__Font__Lang__FrArEn">Fr</div>
+        <div class="Home__Page__Font__Lang__FrArEn">Ar</div>
       </div>
-
-
-
-      <div class="Home__Page__Font__Tag " [innerText]="'</Louzi Amine>'"></div>
-
-
     </div>
-    <div class="col-md-1 d-flex justify-content-center " style="background-color: rgba(0,255,255,0.24)">2</div>
+
+    <div class="col-md-10  position-relative" >
+        <div class="position-absolute top-50 end-0 translate-middle-y Full__Stack__Developers ">
+
+            <div   appLetterReveal [letterReveal]="'Full Stack Developers'"  class="Home__Page__Font "></div>
+<!--          <p [letterReveal]="'Hello, world!'"></p>-->
+<!--          <p appLetterReveal [letterReveal]="'Hello, world!'"></p>-->
+            <div class="Home__Page__Font__Tag d-flex justify-content-end  " [innerText]="'</Louzi Amine>'"></div>
+            <div class="d-flex justify-content-end">
+              <img [src]="cv" alt="Cv Louzi Amine">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-1 d-flex justify-content-center  Home__Page__Boredr__Left" >2</div>
   </div>
 </div>
 
