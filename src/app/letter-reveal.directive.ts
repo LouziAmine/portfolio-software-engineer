@@ -5,11 +5,7 @@ import { Directive, ElementRef, Input, OnInit  } from '@angular/core';
 })
 export class LetterRevealDirective implements OnInit  {
 
-  // constructor() { }
-  //
-  // ngOnInit(): void {
-  // }
-  @Input('letterReveal') text: string = ''; // Initialize the property
+  @Input('letterReveal') text: string = '';
 
   revealedText: string = '';
 
