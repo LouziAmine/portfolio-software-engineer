@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './about-me.component.sass'
 })
 export class AboutMeComponent {
-
+  Louzi__Amine  ='assets/Image/about__me/Louzi_Amine_Image.png';
 }

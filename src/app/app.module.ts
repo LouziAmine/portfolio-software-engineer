@@ -11,6 +11,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { LetterRevealDirective } from './letter-reveal.directive';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -22,7 +23,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    LetterRevealDirective
+    LetterRevealDirective,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
