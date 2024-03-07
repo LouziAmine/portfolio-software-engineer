@@ -13,6 +13,7 @@ export class HomeComponent {
 
   backgroundHomeImageUrl = 'assets/Image/home__page/background__image.jpg';
   cv  ='assets/Image/home__page/cv.png';
+  menu ='assets/Image/home__page/menu.png'
 
 
 
