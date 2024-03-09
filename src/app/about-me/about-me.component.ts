@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AboutMeComponent {
   Louzi__Amine  ='assets/Image/about__me/Louzi_Amine_Image.png';
+  Github        ='assets/Image/about__me/github.png';
+  Linkdin       ='assets/Image/about__me/Linkdin.png';
 }

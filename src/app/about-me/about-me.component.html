@@ -2,7 +2,8 @@
 
 <div class="About__Me">
 
-  <div class="About__Me__Title" [innerText]="'</About Me>'"></div>
+<!--  <div class="About__Me__Title" [innerText]="'</About Me>'"></div>-->
+  <div   appLetterReveal [letterReveal]="'</About Me>'"  class="About__Me__Title"></div>
 
 
   <div class="container-fluid">
@@ -13,20 +14,19 @@
           <div class="col-md-1"></div>
           <div class="col-md-7  "  style="margin-top: 50px">
             <div class="About__Me__Content__Tag " [innerText]="'<LA>'"></div>
-            <br>
-            <br>
-
-                     <div class="About__Me__Content__text " style="margin-left: 50px">
+            <br><br>
+                     <div class="About__Me__Content__text " style="margin-left: 10px">
                        I am Louzi Amine, and my expertise lies in<br>
                        full-stack development using Java/ Jee (Spring),<br>
                        Angular, and ReactJS.
                      </div>
-
-            <div>
-              <div>
-<!--                <img [src]="linkedin" alt="linkedin" >-->
-              </div>
-              <div class="About__Me__Content__Tag " [innerText]="'</LA>'"></div>
+            <br><br>
+            <div  class="About__Me__Media__Content" >
+                    <div>
+                      <img [src]="Linkdin" alt="Linkdin" >
+                      <img [src]="Github" alt="Github"  class="About__Me__Github" >
+                    </div>
+                    <div class="About__Me__Content__Tag " [innerText]="'</LA>'"></div>
             </div>
 
           </div>
@@ -45,8 +45,23 @@
 
 
       </div>
-      <div class="col-md-1" style="background-color: red ; height: 80vh">
-        Column
+      <div class="col-md-1" >
+        <div class="About__Me__menu_scroll ">
+          <div class="About__Me__menu_scroll__div__Left"></div>
+          <div>
+            <div class="About__Me__menu_scroll__element2">
+              <div class="About__Me__menu_scroll__element2__A"></div>
+              <div class="About__Me__menu_scroll__element2__B"></div>
+              <div class="About__Me__menu_scroll__element2__C"></div>
+            </div>
+            <div class="About__Me__menu_scroll__element1"></div>
+            <div class="About__Me__menu_scroll__element2">
+              <div class="About__Me__menu_scroll__element2__A"></div>
+              <div class="About__Me__menu_scroll__element2__B"></div>
+              <div class="About__Me__menu_scroll__element2__C"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
