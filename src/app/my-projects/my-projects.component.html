@@ -2,54 +2,50 @@
 
 
 
-<div class="My-Projects">
+<div class="My-Projects"   >
   <div   appLetterReveal [letterReveal]="'</My Projects>'"  class="My-Projects__Title"></div>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-1">
-
+    <div class="row My-Projects-background-color"  >
+      <div class="col-md-1"  >
       </div>
-      <div class="col-md-10">
-              <div class="row">
+      <div class="col-md-10"    >
+              <div class="row" >
 
-                <div class="col-md-1"></div>
-                <div class="col-md-4 My-Projects__Card " >
-
+                    <div *ngFor="let project of projectList ; let i = index"  class="col-md-6 My-Projects-margin-top" >
+               <div class="row">
+                <div class="col-md-2"></div>
+                <div class=" col-md-8 My-Projects__Card"  >
                   <div style="text-align: center;">
-                    <img [src]="List1" alt="List1"  class="My-Projects__Card__Img"  >
+                    <img [src]="project.imageUrl" alt="{{ project.title }}" class="My-Projects__Card__Img">
                   </div>
-
                   <div>
-                    <div class="My-Projects__Card__Title">Call center management system</div>
+                    <div class="My-Projects__Card__Title">{{ project.title }}</div>
                     <div class="My-Projects__Card__flex">
-                      <div class="My-Projects__Card__Contant">A software platform that is meant  to manage and monitor call center operations.</div>
+                      <div class="My-Projects__Card__Contant">{{ project.description }}</div>
                       <div class=""><p class="My-Projects__Card__View">View</p></div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-1"></div>
 
-                <div class="col-md-1"></div>
-                <div class="col-md-4 My-Projects__Card " >
+                <ng-container *ngIf="i % 2 === 0; else oddIndex">
+                  <!-- Code à exécuter si l'index est pair -->
+                  <div class="col-md-2" ></div>
+                </ng-container>
+                <ng-template #oddIndex>
+                  <!-- Code à exécuter si l'index est impair -->
+                  <div class="col-md-1" ></div>
+                </ng-template>
 
-                  <div style="text-align: center;">
-                    <img [src]="List1" alt="List1"  class="My-Projects__Card__Img"  >
-                  </div>
 
-                  <div>
-                    <div class="My-Projects__Card__Title">Call center management system</div>
-                    <div class="My-Projects__Card__flex">
-                      <div class="My-Projects__Card__Contant">A software platform that is meant  to manage and monitor call center operations.</div>
-                      <div class=""><p class="My-Projects__Card__View">View</p></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-1"></div>
+
+  </div>
+
+</div>
 
 
               </div>
       </div>
-      <div class="col-md-1" >
+      <div class="col-md-1"   >
         <div class="My-Projects__menu_scroll ">
           <div class="My-Projects__menu_scroll__div__Left"></div>
           <div>
@@ -66,7 +62,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div >
+    </div>
+    <div class="row" >
+      <div class=" col-md-12  My-Projects-Line " ></div>
     </div>
   </div>
 
